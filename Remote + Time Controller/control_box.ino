@@ -3,6 +3,7 @@
 // Necessary libraries: LiquidCrystal_I2C + RF24 (https://nrf24.github.io/RF24/)
 
 #include "Arduino.h"
+#include <SPI.h>
 
 // Include Wire library for I2C
 #include <Wire.h>
