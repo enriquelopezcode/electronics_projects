@@ -15,7 +15,7 @@
 #include "RF24.h"
 
 //Instantiate radio object
-RF24 radio(8,10);
+RF24 radio(8,10); // First Number: CE Pin; Second Number: CSN Pin
 
 // Let these addresses be used for the pair
 uint8_t addresses[][6] = { "1Node", "2Node" };
