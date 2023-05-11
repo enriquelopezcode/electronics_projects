@@ -8,7 +8,7 @@
 #include <RF24.h>
 
 //Instanitiate radio object
-RF24 radio(8, 10);
+RF24 radio(8, 10); // First Number: CE Pin; Second Number: CSN Pin
 
 //define Buttons and LED
 #define home 4
