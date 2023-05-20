@@ -45,6 +45,10 @@ void setup()
   // Open a writing and reading pipe on each radio, with opposite addresses
   radio.openWritingPipe(addresses[1]);
   radio.openReadingPipe(1, addresses[0]);
+  
+  digitalWrite(led,HIGH);
+  delay(1000);
+  digitalWrite(led,LOW);
 
 }
 
